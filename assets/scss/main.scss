@@ -1,0 +1,36 @@
+// reset is used to reset basic like common margin ,padding etc
+@import "./reset"; 
+// set basic frequetly used colors
+@import "./colors"; 
+// set font library
+@import "./fonts"; 
+// set basic font for elements website
+@import "./typography"; 
+// main structure for responsive
+@import "./structure";
+// for common buttons
+@import "./buttons";
+
+// sidebar
+@import "./sidebar";
+
+// sectons
+@import "./home";
+@import "./about";
+@import "./resume";
+@import "./work";
+@import "./contact";    
+
+// Responsive
+@import "./responsive";
+
+// change theme color
+@import "./light";
+
+
+// photo border animation
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  }
